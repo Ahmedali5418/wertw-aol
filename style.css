@@ -1,0 +1,361 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.partner-card {
+    background: #fff;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* صورة الشعار */
+.logo-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.company-description-container1 {
+    background-color: #9cc5cf;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* النصوص */
+.info-container h2 {
+    margin: 10px 0;
+    color: #1422c5;
+    
+    
+}
+
+.info-container p {
+    margin: 5px 0;
+    color: #000000;
+}
+/*من نحن*/
+.company-description-ser {
+    background-color: #3230be;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.company-ret h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fbfbff;
+}
+
+.company-ret p {
+    color: #f4d03f;
+    line-height: 1.6;
+}
+
+.company-ret img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/* قالب الشرح داخل القالب الرئيسي */
+.company-description-container {
+    background-color: #b7b2b2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.company-description h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1422c5;
+}
+
+.company-description p {
+    color: #000000;
+    line-height: 1.6;
+}
+
+.company-description img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/*ما الذي نقدمة*/
+.sstm {
+    background-color: #b7b2b2;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+}
+.sstm h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1c3fb1;
+}
+.sstm ul p {
+    list-style-type: none;
+    padding: 0;
+    color: #000000;
+}
+.sstm img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/*رؤيتنا*/
+.wwe {
+    background-color: #34495e;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+}
+.wwe h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.wwe ul p {
+    list-style-type: none;
+    padding: 0;
+    color: #c4c5c6;
+}
+.wwe img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/*رسالتنا*/
+.wse {
+    background-color: #0a192f;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+}
+.wse h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fefefe;
+}
+.wse ul p {
+    list-style-type: none;
+    padding: 0;
+    color: #f4d03f;
+}
+.wse img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* قسم مميز */
+.features {
+    background-color: #007bff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+}
+
+.features h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.features i {
+    margin-left: 10px;
+    color: #ffd700;
+}
+/* قسم أنواع المواقع */
+.website-types {
+    background-color: #28a745;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+}
+
+.website-types h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.website-types ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.website-types li {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.website-types i {
+    margin-left: 10px;
+    color: #ffd700;
+}
+body .btn {
+    background-color: #213ec1;
+    padding: 10px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    bottom: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+body .btn:hover {
+    background-color: #e68a00;
+}
+body .contact-btn {
+    background-color: #213ec1;
+    padding: 10px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    bottom: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+body .contact-btn:hover {
+    background-color: #e68a00;
+}
+
+
+/* عنوان الروابط الاجتماعية */
+.social-header {
+    margin-top: 20px;
+    color: #1422c5;
+}
+
+/* الروابط الاجتماعية */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.social-links i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+/* تصميم صفحة الخدمات */
+.services {
+    text-align: center;
+    padding: 60px 10px;
+    background-color: #9cc5cf;
+}
+
+.services h1 {
+    color: #0a192f;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* حاوية الخدمات */
+.service-container {
+    display: flex;
+    color: #5582b2;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* تصميم الخدمة */
+.service {
+    background-color: #0a192f;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    color: #c1c3c5;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #f4d03f;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* إضافة استجابة للهواتف */
+@media (max-width: 768px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

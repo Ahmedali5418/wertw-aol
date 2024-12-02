@@ -1,0 +1,89 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* العنوان الرئيسي */
+.contact-header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 3px solid #0056b3;
+}
+
+.contact-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.contact-header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+/* محتوى الصفحة */
+.contact-content {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* العناوين داخل المحتوى */
+.contact-content h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+/* نموذج الاتصال */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* الفوتر */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    margin-top: 20px;
+}
